@@ -1,0 +1,44 @@
+body {
+	background-color: Black;
+	font-family: "Comic Sans MS", Comic Sans, cursive;
+	font-size: 6pt; 
+	color: blue; /* Dark maroon for body text */
+	text-align: center; /* keeps paragraphs center-aligned */
+}
+h1 {
+	display: inline-block;	/* Shrinks width to fit text */
+	background-color: lightblue; /* Background only around text */
+	font-size: 32pt;
+	color: red;	/* Bright red text */
+	padding: 5px 10px;	/* Space around the text */
+	margin: 20px auto;	/* Centers the h1 horizontally */
+	text-align: center;	/* Centers text inside the h1 box */
+}
+h2 {
+	text-align: center; /* Keeps paragraphs left-aligned */
+	background-color: red; /* Dark maroon for body text */
+	color: lightblue;	/* Bright red text */
+}
+p {
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+p.shrt {
+	display: inline-block;	/* Shrinks with to fit conent */
+	background-color: lightyellow; /* Optional: highlight */
+	width: 600px;	/* Fixed width of container */
+	padding: 5px 10px;	/* Optional spacing around text */
+	margin: 10px 0; 	/* Vertical spacing */
+	text-align: center;
+}
+.row {
+	display: flex;	/* Enabled horizontal layout */
+	gap: 20px;	/* Optional space between paragraphs */
+}
+li {
+	text-align: left;
+}
+a {
+
+}
